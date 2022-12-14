@@ -1,0 +1,17 @@
+# Ler base e altura de um triângulo. Calcular e escrever a área.
+#include <stdio.h>
+
+int main(){
+	
+	int base,altura,area;
+	
+	printf("Qual a base do triângulo? \n");
+	scanf("%d",&base);
+	printf("Qual a altura do triângulo? \n");
+	scanf("%d", &altura);
+	
+	area = (base*altura/2);
+	printf("Area do Triangulo: %d",area);
+	
+	
+}
