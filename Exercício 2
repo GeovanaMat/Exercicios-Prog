@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main(){
+	
+	int salario,salarionovo;
+	
+	printf("Qual o seu salario? \n");
+	scanf("%d",&salario);
+	
+	
+	salarionovo = salario + (10*salario)/100;
+	
+	printf("Salario novo:%d. \n",salarionovo);
+	
+}
