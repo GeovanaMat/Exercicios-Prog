@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+	
+	int valorconta,porcentgar;
+	
+	printf("Qual o valor da conta? \n");
+	scanf("%d",&valorconta);
+	
+	
+	porcentgar = (10*valorconta)/100;
+	
+	printf("Valor da Porcentagem do Garçon:R$%d. \n",porcentgar);
+	
+}
