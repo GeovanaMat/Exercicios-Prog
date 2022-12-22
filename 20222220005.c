@@ -6,7 +6,7 @@ int main(){
     
     
     
-  for(contador = 0; contador < 3; contador++)
+  for(contador = 0; contador < 20; contador++)
   {
       
     scanf("%d",&numero);
